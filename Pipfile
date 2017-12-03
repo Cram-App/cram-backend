@@ -16,3 +16,6 @@ wikipedia = "*"
 click = "*"
 nltk = "*"
 textblob = "*"
+
+[requires]
+python_version = "2.7"
