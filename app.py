@@ -6,6 +6,7 @@ import click
 import json
 import re
 import wikipedia
+import os
 
 app = Flask(__name__)
 
