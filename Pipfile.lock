@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "903732079e7f8c1af1460acd3385bf6a0481f3f219dbcc84f4d223b709363c46"
+            "sha256": "ff9239698129c1331b552310ece939411865eb930339ccc6273316b70a069b0d"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -17,7 +17,9 @@
             "sys_platform": "darwin"
         },
         "pipfile-spec": 6,
-        "requires": {},
+        "requires": {
+            "python_version": "2.7"
+        },
         "sources": [
             {
                 "name": "pypi",
