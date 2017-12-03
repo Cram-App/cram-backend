@@ -133,6 +133,10 @@ SAMPLE_ARTICLES = (
 # @click.command()
 # @click.argument('titles', nargs=-1)
 # @click.option('--output', type=click.File('w'), help='Output to JSON file')
+@app.route("/")
+def home():
+    return "Hello World"
+
 @app.route("/questions", methods=['GET'])
 # def generate_trivia(titles, output):
 def generate_trivia():
